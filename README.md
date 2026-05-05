@@ -20,11 +20,11 @@ A collection of Python and Google Apps Script tools designed to automate high-vo
 | Script Name | Function | Workflow | Output | Tech Stack |
 | --- | --- | --- | --- | --- |
 | [delivery_next_day_3pl.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/delivery_next_day_3pl.ipynb) | Automate data preprocessing to generate excel files based on 3PL name | ETL: CSV → Clean → Excel | Files with xlsx format | Python (Pandas, NumPy, pytz, OpenPyXl) |
-| [delivery_next_day_timeslots.ipynb]([url](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/delivery_next_day_timeslots.ipynb)) | Automate data preprocessing to generate Excel files based on time slots for next day delivery | ETL: CSV → Clean → Excel | Files with xlsx format | Python (pandas, numpy, pytz, openpyxl) |
-| [delivery_sameday_3pl.ipynb]([url](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/delivery_sameday_3pl.ipynb)) | Automate data preprocessing to generate excel files based on 3PL name for same day delivery | ETL: CSV → Clean → Excel | Files with xlsx format | Python (pandas, numpy, pytz, openpyxl) |
-| [fleet_utilization_capacity_extraction.ipynb]([url](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/fleet_utilization_capacity_extraction.ipynb)) | Automate data preprocessing to generate csv file | ETL: CSV → Clean → Cleaned CSV | Files with csv format | Python (pandas, numpy) |
-| [fleet_utilization_middle_mile_viz.ipynb]([url](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/fleet_utilization_middle_mile_viz.ipynb)) | Automate fleet capacity dashboards in Google Colab to provide visibility into Middle Mile utilization metrics. | Cleaned CSV → Data Visualization | Dashboard Viz | Python (pandas, numpy, matplotlib, seaborn) |
-| [reset_attendance.js]([url](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/app_script/reset_attendance.js)) | Automate the data cleaning across multiple tabs | Google Sheets Automation | Clean cells | Apps Script |
+| [delivery_next_day_timeslots.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/delivery_next_day_timeslots.ipynb) | Automate data preprocessing to generate Excel files based on time slots for next day delivery | ETL: CSV → Clean → Excel | Files with xlsx format | Python (pandas, numpy, pytz, openpyxl) |
+| [delivery_sameday_3pl.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/delivery_sameday_3pl.ipynb) | Automate data preprocessing to generate excel files based on 3PL name for same day delivery | ETL: CSV → Clean → Excel | Files with xlsx format | Python (pandas, numpy, pytz, openpyxl) |
+| [fleet_utilization_capacity_extraction.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/fleet_utilization_capacity_extraction.ipynb) | Automate data preprocessing to generate csv file | ETL: CSV → Clean → Cleaned CSV | Files with csv format | Python (pandas, numpy) |
+| [fleet_utilization_middle_mile_viz.ipynb](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/colab_notebooks/fleet_utilization_middle_mile_viz.ipynb) | Automate fleet capacity dashboards in Google Colab to provide visibility into Middle Mile utilization metrics. | Cleaned CSV → Data Visualization | Dashboard Viz | Python (pandas, numpy, matplotlib, seaborn) |
+| [reset_attendance.js](https://github.com/adangkurnia/logistics-etl-scripts/blob/main/app_script/reset_attendance.js) | Automate the data cleaning across multiple tabs | Google Sheets Automation | Clean cells | Apps Script |
 
 ## **HOW TO USE**
 ### 🐍 1. Python (Data Processing & ETL)
@@ -43,7 +43,7 @@ These scripts are designed for **Google Colab.**
 These scripts are designed to run directly within **Google Sheets**.
 
 1. **Open:** Go to your Google Sheet and select `Extensions > Apps Script`.
-2. **Paste:** Copy the code from the `.gs` (or `.js`) file in this repo into the editor.
+2. **Paste:** Copy the code from the `.js` file in this repo into the editor.
 3. **Authorize:** Click the **Run** button (the triangle icon). You will need to grant permission for the script to manage your spreadsheet.
 4. **Action:** Use the custom menu (e.g., "Logistics Tools") that appears in your Sheet to execute the macro.
 
