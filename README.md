@@ -5,9 +5,9 @@
 A collection of Python and Google Apps Script tools designed to automate high-volume logistics data reconciliation (2,500+ daily orders), saving up to 10 hours of manual work weekly.
 
 ## OBJECTIVES
-**The Challenge:** Daily 3PL and fleet reports required a lot of hours of manual data entry.
+**The Challenge:** Daily 3PL and fleet reports required a lot of hours of manual effort.
 
-**The Solution:** An automated pipeline that handles the "Import → Clean → Export" workflow.
+**The Solution:** Scripts that handle the data preprocessing automatically.
 
 #### **TECH STACK**
 
